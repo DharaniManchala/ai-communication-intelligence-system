@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>
+        AI Human Communication Intelligence System
+    </title>
+
+    <link rel="stylesheet"
+        href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>
+            AI Human Communication Intelligence System
+        </h1>
+
+        <p class="subtitle">
+
+            Analyze confidence, emotion,
+            hesitation and communication
+            quality using AI and NLP.
+
+        </p>
+
+        <!-- INPUT CARD -->
+        <div class="card">
+
+            <textarea
+                id="textInput"
+                placeholder="Type your communication text here...">
+            </textarea>
+            <button id="micBtn">
+
+    🎤 Speak
+
+</button>
+
+            <button id="analyzeBtn">
+
+                Analyze Communication
+
+            </button>
+            <p id="loadingText">
+
+    Analyzing communication...
+
+</p>
+
+        </div>
+
+
+        <!-- RESULT CARD -->
+        <div class="result-card">
+
+            <h2>
+                AI Communication Analytics
+            </h2>
+
+            <div class="dashboard">
+
+                <div class="analytics-box">
+
+                    <h3>Confidence</h3>
+
+                    <p id="confidenceScore">
+                        --
+                    </p>
+
+                </div>
+
+                <div class="analytics-box">
+
+                    <h3>Emotion</h3>
+
+                    <p id="emotionScore">
+                        --
+                    </p>
+
+                </div>
+
+                <div class="analytics-box">
+
+                    <h3>Communication</h3>
+
+                    <p id="communicationScore">
+                        --
+                    </p>
+
+                </div>
+
+                <div class="analytics-box">
+
+                    <h3>Hesitation</h3>
+
+                    <p id="hesitationScore">
+                        --
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- GRAPH BUTTON -->
+            <button id="graphBtn">
+
+                Show Analytics Graph
+
+            </button>
+            <button id="downloadBtn">
+
+    Download AI Report
+
+</button>
+
+
+            <!-- GRAPH -->
+            <div id="graphContainer">
+
+                <canvas id="analyticsChart"></canvas>
+
+
+            </div>
+
+        </div>
+        <div class="result-card">
+
+    <h2>
+        AI Suggestions
+    </h2>
+
+    <ul id="suggestionsList">
+
+    </ul>
+
+</div>
+
+    </div>
+
+    <!-- CHART JS -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- SCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
