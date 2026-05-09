@@ -227,4 +227,4 @@ Run using Live Server.
 
 # Author
 
-Prathyusha Myla
+Dharani Manchala
