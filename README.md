@@ -1,5 +1,11 @@
 # AI-Based Communication Intelligence Platform using NLP and Machine Learning
 
+## Live Demo
+
+https://ai-communication-intelligence-system-pz6enjbtm.vercel.app
+
+---
+
 ## Overview
 
 AI-Based Communication Intelligence Platform is a real-time AI-powered system that analyzes human communication using Natural Language Processing (NLP), Machine Learning, and Speech Recognition.
@@ -221,4 +227,4 @@ Run using Live Server.
 
 # Author
 
-Dharani Manchala
+Prathyusha Myla
